@@ -8,74 +8,126 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gradient-to-r from-blue-100 to-green-100 text-gray-800">
-  <!-- Hero Section -->
-  <section class="text-center py-20 px-4">
-    <h1 class="text-4xl md:text-6xl font-bold mb-4">Swap Skills. Grow Together.</h1>
-    <p class="text-xl md:text-2xl mb-8">SkillSwap lets you share your talent and learn something new from others in your community.</p>
-    <div class="space-x-4">
-      <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">Join Now</a>
-      <a href="#skills" class="bg-white text-blue-600 px-6 py-3 rounded-full border border-blue-600 hover:bg-blue-50 transition">Explore Skills</a>
-    </div>
-  </section>
-
-  <!-- How It Works -->
-  <section class="bg-white py-16 px-6 text-center">
-    <h2 class="text-3xl font-bold mb-12">How It Works</h2>
-    <div class="grid md:grid-cols-3 gap-10">
-      <div>
-        <div class="text-5xl mb-4">1️⃣</div>
-        <h3 class="text-xl font-semibold mb-2">Create a Profile</h3>
-        <p>Let others know what you can teach and what you want to learn.</p>
-      </div>
-      <div>
-        <div class="text-5xl mb-4">2️⃣</div>
-        <h3 class="text-xl font-semibold mb-2">List Your Skills</h3>
-        <p>Add any skills you want to offer or are seeking to learn.</p>
-      </div>
-      <div>
-        <div class="text-5xl mb-4">3️⃣</div>
-        <h3 class="text-xl font-semibold mb-2">Connect & Learn</h3>
-        <p>Match with others, start learning and teaching, and grow together!</p>
+<body class="bg-gradient-to-r from-blue-100 to-purple-100 text-gray-800">
+  <!-- Navbar -->
+  <nav class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        <div class="flex-shrink-0 text-2xl font-bold text-blue-600">SkillSwap</div>
+        <div class="hidden md:flex space-x-4">
+          <a href="#" class="text-gray-700 hover:text-blue-600">Home</a>
+          <a href="#skills" class="text-gray-700 hover:text-blue-600">Skills</a>
+          <a href="#faq" class="text-gray-700 hover:text-blue-600">FAQ</a>
+          <a href="#blog" class="text-gray-700 hover:text-blue-600">Blog</a>
+          <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Join</a>
+        </div>
       </div>
     </div>
-  </section>
+  </nav>
 
-  <!-- Skill Categories -->
-  <section id="skills" class="py-16 px-6 bg-gradient-to-r from-green-50 to-blue-50">
-    <h2 class="text-3xl font-bold text-center mb-12">Popular Skill Categories</h2>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">🎸 Music</div>
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">🧑‍💻 Coding</div>
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">🧁 Cooking</div>
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">✍️ Writing</div>
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">🎨 Design</div>
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">📚 Academics</div>
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">📸 Photography</div>
-      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">➕ Add Your Own</div>
-    </div>
-  </section>
+  <!-- Sidebar -->
+  <aside class="fixed left-0 top-20 w-48 hidden md:block bg-white h-full shadow-inner px-4 py-6 space-y-4">
+    <a href="#" class="block text-blue-600 font-semibold hover:underline">Dashboard</a>
+    <a href="#skills" class="block text-gray-700 hover:text-blue-600">Skills</a>
+    <a href="#faq" class="block text-gray-700 hover:text-blue-600">FAQ</a>
+    <a href="#blog" class="block text-gray-700 hover:text-blue-600">Blog</a>
+  </aside>
 
-  <!-- Testimonials -->
-  <section class="py-16 px-6 bg-white">
-    <h2 class="text-3xl font-bold text-center mb-12">What Users Say</h2>
-    <div class="grid md:grid-cols-2 gap-8">
-      <div class="bg-gray-100 p-6 rounded-xl">
-        <p class="italic">“I taught guitar and got help with physics – all in one place!”</p>
-        <p class="mt-4 font-bold">– Nayan, Grade 11 Student</p>
+  <main class="md:ml-48">
+    <!-- Hero Section -->
+    <section class="text-center py-20 px-4">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Swap Skills. Grow Together.</h1>
+      <p class="text-xl md:text-2xl mb-8">SkillSwap lets you share your talent and learn something new from others in your community.</p>
+      <div class="space-x-4">
+        <a href="#" class="bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition">Join Now</a>
+        <a href="#skills" class="bg-white text-blue-600 px-6 py-3 rounded-full border border-blue-600 hover:bg-blue-50 transition">Explore Skills</a>
       </div>
-      <div class="bg-gray-100 p-6 rounded-xl">
-        <p class="italic">“SkillSwap helped me build a portfolio while learning design from peers.”</p>
-        <p class="mt-4 font-bold">– Sanjog, Creative Enthusiast</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Call to Action -->
-  <section class="text-center py-20 px-6 bg-gradient-to-r from-green-200 to-blue-200">
-    <h2 class="text-4xl font-bold mb-6">Ready to share what you know and learn something new?</h2>
-    <a href="#" class="bg-blue-700 text-white px-8 py-4 rounded-full text-lg hover:bg-blue-800 transition">Sign Up for Free</a>
-  </section>
+    <!-- How It Works -->
+    <section class="bg-white py-16 px-6 text-center">
+      <h2 class="text-3xl font-bold mb-12">How It Works</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div>
+          <div class="text-5xl mb-4">1️⃣</div>
+          <h3 class="text-xl font-semibold mb-2">Create a Profile</h3>
+          <p>Let others know what you can teach and what you want to learn.</p>
+        </div>
+        <div>
+          <div class="text-5xl mb-4">2️⃣</div>
+          <h3 class="text-xl font-semibold mb-2">List Your Skills</h3>
+          <p>Add any skills you want to offer or are seeking to learn.</p>
+        </div>
+        <div>
+          <div class="text-5xl mb-4">3️⃣</div>
+          <h3 class="text-xl font-semibold mb-2">Connect & Learn</h3>
+          <p>Match with others, start learning and teaching, and grow together!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skill Categories -->
+    <section id="skills" class="py-16 px-6 bg-gradient-to-r from-purple-50 to-green-50">
+      <h2 class="text-3xl font-bold text-center mb-12">Popular Skill Categories</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">🎸 Music</div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">🧑‍💻 Coding</div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">🧁 Cooking</div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">✍️ Writing</div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">🎨 Design</div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">📚 Academics</div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">📸 Photography</div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">➕ Add Your Own</div>
+      </div>
+    </section>
+
+    <!-- Blog Cards -->
+    <section id="blog" class="bg-white py-16 px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Latest Blog Posts</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-100 p-6 rounded-xl hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">How Peer Learning Boosts Confidence</h3>
+          <p class="text-sm text-gray-600 mb-4">Discover how sharing knowledge with others helps both teacher and learner grow.</p>
+          <a href="#" class="text-blue-600 font-semibold hover:underline">Read More</a>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Top 5 Skills in Demand for 2025</h3>
+          <p class="text-sm text-gray-600 mb-4">Explore trending skills and why you should consider learning them now.</p>
+          <a href="#" class="text-blue-600 font-semibold hover:underline">Read More</a>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Success Story: From Learner to Mentor</h3>
+          <p class="text-sm text-gray-600 mb-4">A SkillSwap user's journey from a curious beginner to a confident teacher.</p>
+          <a href="#" class="text-blue-600 font-semibold hover:underline">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 px-6 bg-gradient-to-r from-blue-50 to-purple-50">
+      <h2 class="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+      <div class="max-w-3xl mx-auto space-y-6">
+        <div>
+          <h3 class="text-xl font-semibold">Is SkillSwap free to use?</h3>
+          <p class="text-gray-700">Yes, SkillSwap is completely free for students and hobbyists.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold">How do I find people to exchange skills with?</h3>
+          <p class="text-gray-700">After creating your profile, you can browse other users and send them a connection request.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold">Can I offer more than one skill?</h3>
+          <p class="text-gray-700">Absolutely! You can list as many skills as you’re comfortable sharing.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="text-center py-20 px-6 bg-gradient-to-r from-blue-200 to-green-200">
+      <h2 class="text-4xl font-bold mb-6">Ready to share what you know and learn something new?</h2>
+      <a href="#" class="bg-purple-700 text-white px-8 py-4 rounded-full text-lg hover:bg-purple-800 transition">Sign Up for Free</a>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer class="bg-white text-center py-6 text-sm text-gray-600">
